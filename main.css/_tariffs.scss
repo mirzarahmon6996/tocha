@@ -22,7 +22,6 @@
     display: flex;
     gap: 30px;
     align-items: center;
-    width: 1110px;
     margin: 40px auto;
 }
 
@@ -134,10 +133,10 @@
     }
 }
 
-@media only screen and (max-width:375px) {
+@media only screen and (max-width:421px) {
     .container {
         width: 90%;
-        max-width: 375px;
+        max-width: 421px;
     }
 
     .tariffs__wrapper:nth-child(2) {

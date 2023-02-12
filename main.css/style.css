@@ -103,10 +103,10 @@ header {
     display: none;
   }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 421px) {
   .container {
     width: 90%;
-    max-width: 375px;
+    max-width: 421px;
   }
   .header__content {
     display: none;
@@ -214,9 +214,9 @@ header {
     height: 338px;
   }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 421px) {
   .container {
-    max-width: 375px;
+    max-width: 421px;
     width: 90%;
     margin: 0 auto;
   }
@@ -309,9 +309,9 @@ header {
     height: 487px;
   }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 421px) {
   .container {
-    max-width: 375px;
+    max-width: 421px;
     width: 90%;
     margin: 0 auto;
   }
@@ -344,7 +344,6 @@ header {
   display: flex;
   gap: 30px;
   align-items: center;
-  width: 1110px;
   margin: 40px auto;
 }
 
@@ -447,10 +446,10 @@ header {
     display: none;
   }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 421px) {
   .container {
     width: 90%;
-    max-width: 375px;
+    max-width: 421px;
   }
   .tariffs__wrapper:nth-child(2) {
     display: none;
@@ -612,10 +611,10 @@ header {
     margin-top: 34px;
   }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 421px) {
   .container {
     width: 90%;
-    max-width: 375px;
+    max-width: 421px;
   }
   .telegram__title {
     width: 331px;
