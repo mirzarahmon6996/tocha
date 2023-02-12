@@ -1,0 +1,186 @@
+.telegram__title {
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 64px;
+    font-feature-settings: 'salt'on, 'liga'off;
+    color: #1D2530;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.img-line {
+    background-image: url("../img/telegram-lines.png");
+    width: 1107px;
+    height: 240px;
+    margin-top: 40px;
+}
+
+.telegram__block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.telegram__wrapper {
+    text-align: center;
+    width: 237px;
+    position: relative;
+    bottom: 210px;
+}
+
+.telegram-boll {
+    margin-left: 80px;
+    background: #F1E4FF;
+    border-radius: 100px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 72px;
+    height: 72px;
+    color: #685ED6;
+}
+
+.telegram-text {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    font-feature-settings: 'salt'on, 'liga'off;
+    color: #1D2530;
+    margin-top: 16px;
+}
+
+.telegram-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    font-feature-settings: 'salt'on, 'liga'off;
+    color: #1D2530;
+    margin-top: 4px;
+}
+
+.telegram-phone--first {
+    width: 237px;
+    height: 471px;
+    margin-top: 56px;
+}
+
+.telegram__wrapper--second {
+    text-align: center;
+    width: 237px;
+    position: relative;
+    bottom: 150px;
+    right: 55px;
+}
+
+.telegram-phone--second {
+    width: 281px;
+    height: 559px;
+    margin-top: 30px;
+}
+
+.telegram__wrapper--third {
+    text-align: center;
+    position: relative;
+    bottom: 220px;
+    right: 120px;
+}
+
+.telegram-phone--third {
+    margin-top: 56px;
+    width: 232px;
+    height: 461px;
+}
+
+@media only screen and (max-width:843px) {
+    .container {
+        width: 90%;
+        max-width: 843px;
+    }
+
+    .telegram__title {
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 40px;
+        margin: 88px auto;
+        width: 491px;
+        text-align: center;
+    }
+
+    .img-line {
+        display: none;
+    }
+
+    .telegram__block {
+        margin-top: 39px;
+        display: flex;
+        align-items: stretch;
+        justify-content: space-between;
+    }
+
+    .telegram__wrapper {
+        position: relative;
+        bottom: 0;
+        left: 0;
+    }
+
+    .telegram__wrapper--second {
+        position: relative;
+        bottom: 0;
+        left: 0;
+    }
+
+    .telegram__wrapper--third {
+        position: relative;
+        bottom: 0;
+        left: 0;
+    }
+
+    .telegram-phone--first {
+        width: 211px;
+        height: 422px;
+        margin-top: 34px;
+    }
+
+    .telegram-phone--second {
+        width: 211px;
+        height: 422px;
+        margin-top: 34px;
+    }
+
+    .telegram-phone--third {
+        width: 211px;
+        height: 422px;
+        margin-top: 34px;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .container {
+        width: 90%;
+        max-width: 375px;
+    }
+
+    .telegram__title {
+        width: 331px;
+        margin-bottom: 47px;
+    }
+
+    .telegram__wrapper {
+        margin: 0 auto;
+    }
+
+    .telegram__wrapper--second {
+        display: none;
+    }
+
+    .telegram__wrapper--third {
+        display: none;
+    }
+
+    .telegram-phone--first {
+        margin-top: 42px;
+    }
+}

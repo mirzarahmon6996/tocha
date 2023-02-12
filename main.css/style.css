@@ -1,0 +1,636 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+
+.container {
+  width: 80%;
+  max-width: 1380px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  background: rgba(242, 247, 255, 0.5);
+  -webkit-backdrop-filter: blur(50px);
+          backdrop-filter: blur(50px);
+}
+
+.header__block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 0;
+}
+
+.header-logo {
+  width: 133px;
+  height: 42px;
+}
+
+.header-burger {
+  display: none;
+}
+
+.header__right-first {
+  padding: 10px 20px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #685ED6;
+  background: #F1E4FF;
+  border-radius: 6px;
+  border: none;
+  margin-right: 12px;
+}
+
+.header__right-first:hover {
+  background: #C39BFB;
+  border-radius: 6px;
+}
+
+.header__right-first:active {
+  background: #685ED6;
+  border-radius: 6px;
+  color: #FFFFFF;
+}
+
+.header__right-second {
+  background: #685ED6;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.07);
+  border-radius: 6px;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  font-feature-settings: "salt" on, "liga" off;
+  padding: 10px 20px;
+  color: #FFFFFF;
+}
+
+.header__right-second:hover {
+  background: #33AFE1;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.14);
+  border-radius: 6px;
+}
+
+.header__right-second:active {
+  background: #18E1F7;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.14);
+  border-radius: 6px;
+}
+
+@media only screen and (max-width: 843px) {
+  .container {
+    max-width: 843px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .header-burger {
+    display: none;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .container {
+    width: 90%;
+    max-width: 375px;
+  }
+  .header__content {
+    display: none;
+  }
+  .header-burger {
+    display: block;
+  }
+}
+.hero {
+  background: rgba(242, 247, 255, 0.5);
+  -webkit-backdrop-filter: blur(50px);
+          backdrop-filter: blur(50px);
+  padding: 120px 0 60px 0;
+}
+
+.hero__block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-title {
+  font-weight: 800;
+  width: 440px;
+  font-size: 50px;
+  line-height: 60px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: black;
+}
+
+.hero-title span {
+  color: #685ED6;
+}
+
+.hero-text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  margin-top: 24px;
+  color: #1D2530;
+  width: 482px;
+}
+
+.hero-text span {
+  color: #685ED6;
+}
+
+.hero-btn {
+  padding: 12px 32px;
+  background: #685ED6;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.07);
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #FFFFFF;
+  border: none;
+  margin-top: 32px;
+}
+
+.hero-btn:hover {
+  background: #33AFE1;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.14);
+  border-radius: 6px;
+}
+
+.hero-btn:active {
+  background: #18E1F7;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.14);
+  border-radius: 6px;
+}
+
+.hero-img {
+  width: 725px;
+  height: 583px;
+}
+
+@media only screen and (max-width: 843px) {
+  .container {
+    width: 80%;
+    max-width: 843px;
+    margin: 0 auto;
+  }
+  .hero__block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .hero-title {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+    width: 245px;
+  }
+  .hero-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    width: 270px;
+  }
+  .hero-img {
+    width: 420px;
+    height: 338px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .container {
+    max-width: 375px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .hero__block {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .hero-img {
+    width: 330px;
+    height: 266px;
+    margin-top: 48px;
+  }
+}
+.online {
+  background: rgba(242, 247, 255, 0.5);
+  -webkit-backdrop-filter: blur(50px);
+          backdrop-filter: blur(50px);
+}
+
+.online__block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.online__wrapper {
+  margin: 96px 0 183px 0;
+}
+
+.online-caption {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 32px;
+  color: #1D2530;
+  margin-bottom: 68px;
+}
+
+.online__content {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-top: 50px;
+}
+
+.online-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #1D2530;
+}
+
+.online-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #1D2530;
+  width: 428px;
+}
+
+@media only screen and (max-width: 843px) {
+  .container {
+    max-width: 843px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .online-caption {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .online__content img {
+    width: 42px;
+    height: 42px;
+  }
+  .online-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .online-text {
+    font-weight: 400;
+    width: 280px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .online-img {
+    width: 300px;
+    height: 487px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .container {
+    max-width: 375px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .online__block {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+.tariffs__title {
+  font-weight: 800;
+  font-size: 46px;
+  line-height: 64px;
+  text-align: center;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #1D2530;
+  margin-top: 100px;
+}
+
+.tariffs__subtitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #1D2530;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.tariffs__block {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  width: 1110px;
+  margin: 40px auto;
+}
+
+.tariffs__wrapper {
+  background: #FCFEFF;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.07);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tariffs__wrapper:hover {
+  box-shadow: 1px 0px 21px 1px rgba(0, 0, 0, 0.2);
+}
+
+.tariffs-btn {
+  padding: 7px 114px;
+  background: rgba(104, 94, 214, 0.05);
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 48px;
+  border: none;
+  color: #685ED6;
+}
+
+.tariffs-btn--second:hover {
+  background: #33AFE1;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.14);
+  border-radius: 6px;
+}
+
+.tariffs-btn--second:active {
+  background: #18E1F7;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.14);
+  border-radius: 6px;
+}
+
+.tariffs-text {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  text-align: center;
+  color: #1D2530;
+  margin-top: 40px;
+}
+
+.tariffs-desc {
+  margin-top: 32px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #1D2530;
+}
+
+.tariffs-btn--second {
+  background: #685ED6;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.07);
+  padding: 12px 66px;
+  border: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #FFFFFF;
+  border-radius: 6px;
+  margin: 46px 0 50px 0;
+}
+
+@media only screen and (max-width: 843px) {
+  .container {
+    width: 90%;
+    max-width: 843px;
+  }
+  .tariffs__title {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+    margin-top: 54px;
+  }
+  .tariffs__subtitle {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 8px;
+  }
+  .tariffs__wrapper {
+    width: 330px;
+  }
+  .tariffs-btn {
+    width: 330px;
+  }
+  .tariffs-btn--second {
+    width: 270px;
+  }
+  .tariffs__wrapper:nth-child(3) {
+    display: none;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .container {
+    width: 90%;
+    max-width: 375px;
+  }
+  .tariffs__wrapper:nth-child(2) {
+    display: none;
+  }
+  .tariffs__subtitle {
+    width: 214px;
+    margin: 8px auto;
+  }
+  .tariffs-btn--second {
+    width: 270px;
+  }
+}
+.telegram__title {
+  font-weight: 800;
+  font-size: 46px;
+  line-height: 64px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #1D2530;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.img-line {
+  background-image: url("../img/telegram-lines.png");
+  width: 1107px;
+  height: 240px;
+  margin-top: 40px;
+}
+
+.telegram__block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.telegram__wrapper {
+  text-align: center;
+  width: 237px;
+  position: relative;
+  bottom: 210px;
+}
+
+.telegram-boll {
+  margin-left: 80px;
+  background: #F1E4FF;
+  border-radius: 100px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 72px;
+  height: 72px;
+  color: #685ED6;
+}
+
+.telegram-text {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #1D2530;
+  margin-top: 16px;
+}
+
+.telegram-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #1D2530;
+  margin-top: 4px;
+}
+
+.telegram-phone--first {
+  width: 237px;
+  height: 471px;
+  margin-top: 56px;
+}
+
+.telegram__wrapper--second {
+  text-align: center;
+  width: 237px;
+  position: relative;
+  bottom: 150px;
+  right: 55px;
+}
+
+.telegram-phone--second {
+  width: 281px;
+  height: 559px;
+  margin-top: 30px;
+}
+
+.telegram__wrapper--third {
+  text-align: center;
+  position: relative;
+  bottom: 220px;
+  right: 120px;
+}
+
+.telegram-phone--third {
+  margin-top: 56px;
+  width: 232px;
+  height: 461px;
+}
+
+@media only screen and (max-width: 843px) {
+  .container {
+    width: 90%;
+    max-width: 843px;
+  }
+  .telegram__title {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+    margin: 88px auto;
+    width: 491px;
+    text-align: center;
+  }
+  .img-line {
+    display: none;
+  }
+  .telegram__block {
+    margin-top: 39px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+  .telegram__wrapper {
+    position: relative;
+    bottom: 0;
+    left: 0;
+  }
+  .telegram__wrapper--second {
+    position: relative;
+    bottom: 0;
+    left: 0;
+  }
+  .telegram__wrapper--third {
+    position: relative;
+    bottom: 0;
+    left: 0;
+  }
+  .telegram-phone--first {
+    width: 211px;
+    height: 422px;
+    margin-top: 34px;
+  }
+  .telegram-phone--second {
+    width: 211px;
+    height: 422px;
+    margin-top: 34px;
+  }
+  .telegram-phone--third {
+    width: 211px;
+    height: 422px;
+    margin-top: 34px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .container {
+    width: 90%;
+    max-width: 375px;
+  }
+  .telegram__title {
+    width: 331px;
+    margin-bottom: 47px;
+  }
+  .telegram__wrapper {
+    margin: 0 auto;
+  }
+  .telegram__wrapper--second {
+    display: none;
+  }
+  .telegram__wrapper--third {
+    display: none;
+  }
+  .telegram-phone--first {
+    margin-top: 42px;
+  }
+}/*# sourceMappingURL=style.css.map */

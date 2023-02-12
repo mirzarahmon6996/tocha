@@ -1,0 +1,156 @@
+.tariffs__title {
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 64px;
+    text-align: center;
+    font-feature-settings: 'salt'on, 'liga'off;
+    color: #1D2530;
+    margin-top: 100px;
+}
+
+.tariffs__subtitle {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    font-feature-settings: 'salt'on, 'liga'off;
+    color: #1D2530;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.tariffs__block {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    width: 1110px;
+    margin: 40px auto;
+}
+
+.tariffs__wrapper {
+    background: #FCFEFF;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.07);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tariffs__wrapper:hover {
+    -webkit-box-shadow: 1px 0px 21px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 1px 0px 21px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 0px 21px 1px rgba(0, 0, 0, 0.2);
+}
+
+.tariffs-btn {
+    padding: 7px 114px;
+    background: rgba(104, 94, 214, 0.05);
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 48px;
+    border: none;
+    color: #685ED6;
+}
+
+.tariffs-btn--second:hover {
+    background: #33AFE1;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.14);
+    border-radius: 6px;
+}
+
+.tariffs-btn--second:active {
+    background: #18E1F7;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.14);
+    border-radius: 6px;
+}
+
+.tariffs-text {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    color: #1D2530;
+    margin-top: 40px;
+}
+
+.tariffs-desc {
+    margin-top: 32px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #1D2530;
+}
+
+.tariffs-btn--second {
+    background: #685ED6;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.07);
+    padding: 12px 66px;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    font-feature-settings: 'salt'on, 'liga'off;
+    color: #FFFFFF;
+    border-radius: 6px;
+    margin: 46px 0 50px 0;
+}
+
+@media only screen and (max-width:843px) {
+    .container {
+        width: 90%;
+        max-width: 843px;
+    }
+
+    .tariffs__title {
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 40px;
+        margin-top: 54px;
+    }
+
+    .tariffs__subtitle {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+        margin-top: 8px;
+    }
+
+    .tariffs__wrapper {
+        width: 330px;
+    }
+
+    .tariffs-btn {
+        width: 330px;
+    }
+
+    .tariffs-btn--second {
+        width: 270px;
+    }
+
+    .tariffs__wrapper:nth-child(3) {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .container {
+        width: 90%;
+        max-width: 375px;
+    }
+
+    .tariffs__wrapper:nth-child(2) {
+        display: none;
+    }
+
+    .tariffs__subtitle {
+        width: 214px;
+        margin: 8px auto;
+    }
+
+    .tariffs-btn--second {
+        width: 270px;
+
+    }
+}
