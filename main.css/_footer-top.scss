@@ -1,0 +1,141 @@
+.footer__top {
+    margin: 90px 0;
+}
+
+.footer__top-block {
+    display: flex;
+    align-items: center;
+    background-image: url("../img/footer-topimg.png");
+    background-size: cover;
+    padding: 16px 187px 0 86px;
+}
+
+.footer__top-wrapper {
+    width: 445px;
+    margin-left: 80px;
+}
+
+.footer__top-img {
+    width: 314px;
+    height: 271px;
+}
+
+.footer__top-wrapper h2 {
+    font-weight: 800;
+    font-size: 33px;
+    line-height: 41px;
+    font-feature-settings: 'salt'on, 'liga'off;
+    width: 445px;
+    color: #FFFFFF;
+}
+
+.footer__top-block input {
+    padding: 14px 16px;
+    margin-top: 32px;
+    width: 248px;
+    background: #F4F5F7;
+    border-radius: 5px 0px 0px 5px;
+    outline: none;
+    border: none;
+}
+
+.footer__top-block input::placeholder {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    font-feature-settings: 'salt'on, 'liga'off;
+    color: #474A57;
+}
+
+.footer__top-btn {
+    background: #18191F;
+    border-radius: 0px 5px 5px 0px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    font-feature-settings: 'salt'on, 'liga'off;
+    color: #FFFFFF;
+    padding: 12px 24px;
+    border: none;
+    margin-left: -5px;
+}
+
+.footer__top-btn:hover {
+    background: #33AFE1;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.14);
+}
+
+.footer__top-btn:active {
+    background: #18E1F7;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.14);
+}
+
+@media only screen and (max-width:843px) {
+    .container {
+        width: 90%;
+        max-width: 843px;
+        margin: 0 auto;
+    }
+
+    .footer__top-block {
+        padding: 0 30px;
+    }
+
+    .footer__top-img {
+        width: 269px;
+        height: 239px;
+    }
+
+    .footer__top-wrapper {
+        margin-left: 30px;
+    }
+
+    .footer__top-wrapper h2 {
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 32px;
+        width: 321px;
+    }
+
+    .footer__top-wrapper input {
+        width: 210px;
+    }
+
+    .footer__top-btn {
+        width: 120px;
+    }
+}
+
+@media only screen and (max-width:421px) {
+    .container {
+        width: 90%;
+        max-width: 421px;
+    }
+
+    .footer__top-block {
+        padding: 20px 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer__top-img {
+        width: 269px;
+        height: 239px;
+    }
+
+    .footer__top-wrapper h2 {
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 32px;
+        margin-top: 25px;
+    }
+
+    .footer__top-wrapper input {
+        width: 151px;
+        margin-bottom: 40px;
+    }
+
+    .footer__top-btn {
+        width: 120px;
+    }
+}

@@ -1,0 +1,125 @@
+.client {
+    background: rgba(242, 247, 255, 0.5);
+    padding-bottom: 120px;
+}
+
+.client__title {
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 64px;
+    font-feature-settings: 'salt'on, 'liga'off;
+    color: #1D2530;
+    text-align: center;
+}
+
+.client-img {
+    width: 143px;
+    height: 121px;
+    position: relative;
+    left: 250px;
+    top: 55px;
+}
+
+.client__block {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 48px;
+}
+
+.client__wrapper {
+    background: #FCFEFF;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.07);
+    border-radius: 6px;
+    padding: 32px 32px 56px 32px;
+    width: 540px;
+}
+
+.client__wrapper:hover {
+    -webkit-box-shadow: 1px 0px 21px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 1px 0px 21px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 0px 21px 1px rgba(0, 0, 0, 0.2);
+}
+
+.client__wrapper h5 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    font-feature-settings: 'salt'on, 'liga'off;
+    color: #18191F;
+}
+
+.client__wrapper p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    font-feature-settings: 'salt'on, 'liga'off;
+    color: #18191F;
+}
+
+.client-logo {
+    margin: 28px 170px;
+}
+
+@media only screen and (max-width:843px) {
+    .container {
+        width: 90%;
+        max-width: 843px;
+    }
+
+    .client__title {
+        margin-top: 60px;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .client__block {
+        margin-top: 40px;
+    }
+
+    .client-img {
+        margin-left: -190px;
+        width: 111px;
+        height: 95px;
+        margin-bottom: 20px;
+    }
+
+    .client__block div:nth-child(2) {
+        display: none;
+    }
+
+    .client__block div {
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width:421px) {
+    .container {
+        width: 90%;
+        max-width: 421px;
+        margin: 0 auto;
+    }
+
+    .client__title {
+        margin-top: 60px;
+    }
+
+    .client-img {
+        display: none;
+    }
+
+    .client__block div {
+        margin-right: 30px;
+    }
+
+    .client__wrapper {
+        width: 328px;
+    }
+
+    .client-logo {
+        margin: 21px 97px;
+    }
+}
